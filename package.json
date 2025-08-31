@@ -1,8 +1,10 @@
 {
   "name": "unity-door-configurator",
   "version": "1.0.0",
+  "type": "module",
   "description": "Door configurator for unity",
-  "main": "index.js", "scripts": {
+  "main": "index.js",
+  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
