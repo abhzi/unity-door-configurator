@@ -1,13 +1,14 @@
 {
   "name": "unity-door-configurator",
   "version": "1.0.0",
-  "type": "module",
   "description": "Door configurator for unity",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --dotfiles"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,8 @@
     "vite": "^7.1.3"
   },
   "devDependencies": {
-    "@types/three": "^0.179.0"
-  }
+    "@types/three": "^0.179.0",
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://abhi2.github.io/unity-door-configurator/"
 }
